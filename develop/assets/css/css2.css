@@ -1,0 +1,282 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";/*不起作用*/
+}
+.header{
+    background-color:#FFF;
+    height: 90px;
+    width: 1100px;
+    margin: 0 auto;
+}
+.header .logo{
+    float: left;
+    margin-top:30px;
+
+}
+.nev{
+    float:right;
+}
+.nev li{
+    float: left;
+    display: block;
+    margin-top:30px;
+    width: 60px;
+    padding: 0 15px;
+    border: 50px;
+    font-size: 16px;
+    line-height:40px;
+}
+.nev a{
+    font-size: 15px;
+    color: gray;
+}
+.nev a:hover{
+    color: red;
+}
+.aboutus{  /*背景为什么显示高度为0*/
+    display:block;
+    width: 1100px;
+    margin: 20px auto;
+    clear: both;
+}
+.naviga{ 
+    float: left;
+    width: 220px;
+    height: 620px;
+    border: 1px solid #eaeaea;
+    z-index:1;
+}
+.naviga-title{
+    background:url("../img/about-list.jpg")  no-repeat;
+    height: 88px;
+}
+.naviga-box{
+    margin-left: 30px;
+}
+
+.naviga-list .curr{
+    border-left: solid 5px #f24644;
+    background-color: #fff2f2;
+    padding-left: 25px!important;
+    color: #e53e3c;
+}
+.naviga-list a:hover{
+    color: red;
+}
+.aboutus .naviga .naviga-list a{
+    display: block;
+    text-align: left;
+    line-height: 50px;
+    font-size: 16px;
+    padding-left: 30px;
+    border-bottom: 1px solid  #eee;
+}
+.naviga-list a:hover{/*不起作用*/
+    color: red;
+}
+.brief{
+    float: left;
+    width:850px;
+    border: 1px solid #eaeaea;
+    margin-left: 25px;
+    margin-bottom: 20px;
+}
+.bri-title{
+    margin:25px 40px 30px;
+}
+.title-cn{
+    padding-top: 10px;
+    font-size: 28px;
+}
+.title-en{
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+.title-box{
+    margin-left: 30px;
+}
+.brief .bri-title span{
+    font-size: 24px;
+    border-bottom: solid 2px #e53e3c ;
+    padding-bottom: 15px;
+    /*margin-left:20px;
+    padding-top: 30px;*/
+}
+ .bri-title hr{
+    margin: 15px 0 0 20px;
+}
+.aboutus .brief .textbox{
+    margin: auto 40px;
+}
+.aboutus .brief .textbox-join{
+    margin-bottom:40px;
+}
+.brief .textbox p{
+    text-indent: 30px;
+    line-height: 30px;
+    font-family: "Microsoft YaHei"
+}
+.aboutus .brief .textbox span{
+    display:block;
+    margin-bottom: 15px;
+    font-size:20px;
+    border-left: 4px solid #e42825;
+    padding-left:10px;
+}
+.aboutus .brief .textbox li{
+    line-height: 30px;
+    padding-left:10px;
+    list-style-image: url("../img/about-yes.png")
+}
+.aboutus .brief .textbox .position .choice{
+    margin-right:12px;
+}
+.footer{
+    clear: both;
+    background-color: #333438;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1100px;
+    height: 300px;
+}
+.navLink-container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom:1px dashed #545558;
+    height: 80px;/*这个高度为什么设置的和实际情况不一样*/
+}
+.footer-logo{
+    float: left;
+    background: url("../img/logo-gray.png");
+    width:190px;
+    height: 56px;
+}
+.customer-service{
+    float: left;
+    height: 56px;
+    margin: 0 10px 0 50px
+}
+.customer-service .title{
+    font-size:20px;
+    color: #b0b1b6
+}
+.customer-service .time{
+    font-size:12px;
+    color: #b0b1b6;
+    margin-top:10px;
+}
+.navLink-container a{
+    display: block;
+    float: left;
+    margin-left: 28px;
+    color: #b0b1b6;
+    font-size: 18px;
+    margin-right: 28px;
+}
+.download{
+    margin-top: -30px;
+}
+.navLink-container .download  img{
+    display: block;
+}
+.navLink-container .download  span{
+    display: block;
+    float: left;
+    margin-top:10px;
+}
+.footer{
+    clear: both;
+    background-color: #333438;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 1100px;
+    height: 300px;
+}
+.navLink-container{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom:1px dashed #545558;
+    height: 80px;/*这个高度为什么设置的和实际情况不一样*/
+}
+.footer-logo{
+    float: left;
+    background: url("../img/logo-gray.png");
+    width:190px;
+    height: 56px;
+}
+.customer-service{
+    float: left;
+    height: 56px;
+    margin: 0 10px 0 50px
+}
+.customer-service .title{
+    font-size:20px;
+    color: #b0b1b6
+}
+.customer-service .time{
+    font-size:12px;
+    color: #b0b1b6;
+    margin-top:10px;
+}
+.navLink-container a{
+    display: block;
+    float: left;
+    margin-left: 28px;
+    color: #b0b1b6;
+    font-size: 18px;
+    margin-right: 28px;
+}
+.download{
+    margin-top: -30px;
+    width: 100px;
+    height: 110px;
+    float: left;
+}
+.navLink-container .download  img{
+    display: block;
+}
+.navLink-container .download  span{
+    display: block;
+    float: left;
+    margin-top:10px;
+    color: #b0b1b6;
+}
+.download-wx{
+    float: left;
+    margin-top: -30px;
+    width: 100px;
+    height: 110px;
+}
+.navLink-container .download-wx  span{
+    display: block;
+    float: left;
+    margin-top:10px;
+    color: #b0b1b6;
+}
+.copyright{
+    text-align: center;
+    padding: 30px 0;
+    font-size: 14px;
+}
+.company-info span{
+    color: #b0b1b6;
+    margin-left: 40px;
+}
+.copyright .right{
+    color: #b0b1b6;
+    margin-top: 15px;
+}
+.security{
+    margin-top: 15px;
+}
+.security span{
+    color: #b0b1b6;
+}
