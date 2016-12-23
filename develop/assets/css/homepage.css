@@ -145,7 +145,7 @@ body {
 }
 
 .top-banner .pro-guide-box .guide-item.brand dd i.more {
-	background: url(../img/icon/icon-w15.png) 0 -170px no-repeat;
+	background: url(../img/icon-w15.png) 0 -170px no-repeat;
 	position: absolute;
 	top: 30px;
 	right: 10px;
@@ -278,7 +278,7 @@ body {
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
-	background: url(../img/icon/icon-w15.png) 0 -30px no-repeat;
+	background: url(../img/icon-w15.png) 0 -30px no-repeat;
 	width: 15px;
 	height: 15px;
 	border-radius: 10px;
